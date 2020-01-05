@@ -1,0 +1,34 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+#root {
+	width: 100%;
+}
+
+div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+p {
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.s-x-15 {width: 120px;}
+.s-y-15 {height: 120px;}
+.s-x-25 {width: 325px;}
+
+.a-x-c {justify-content: center;}
+.a-t-c {text-align: center;}
+
+.p-y-20 {padding-top: 210px; padding-bottom: 210px;}
+
+.m-y-3 > * {margin-top: 6px; margin-bottom: 6px;}
